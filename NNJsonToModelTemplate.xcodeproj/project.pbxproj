@@ -7,62 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2DC43B428EC9B6C006DDCD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DC43B328EC9B6C006DDCD1 /* AppDelegate.swift */; };
-		D2DC43B628EC9B6C006DDCD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DC43B528EC9B6C006DDCD1 /* ViewController.swift */; };
-		D2DC43B828EC9B6C006DDCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DC43B728EC9B6C006DDCD1 /* Assets.xcassets */; };
-		D2DC43BB28EC9B6C006DDCD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DC43B928EC9B6C006DDCD1 /* Main.storyboard */; };
-		D2DC43C628EC9B6C006DDCD1 /* NNJsonToModelTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DC43C528EC9B6C006DDCD1 /* NNJsonToModelTemplateTests.swift */; };
-		D2DC43D028EC9B6C006DDCD1 /* NNJsonToModelTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DC43CF28EC9B6C006DDCD1 /* NNJsonToModelTemplateUITests.swift */; };
-		D2DC43D228EC9B6C006DDCD1 /* NNJsonToModelTemplateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DC43D128EC9B6C006DDCD1 /* NNJsonToModelTemplateUITestsLaunchTests.swift */; };
+		D2DC437928EC9234006DDCD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DC437828EC9234006DDCD1 /* AppDelegate.swift */; };
+		D2DC437B28EC9234006DDCD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DC437A28EC9234006DDCD1 /* ViewController.swift */; };
+		D2DC437D28EC9235006DDCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DC437C28EC9235006DDCD1 /* Assets.xcassets */; };
+		D2DC438028EC9235006DDCD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DC437E28EC9235006DDCD1 /* Main.storyboard */; };
+		D2DC438B28EC9235006DDCD1 /* NNJsonToModelTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DC438A28EC9235006DDCD1 /* NNJsonToModelTemplateTests.swift */; };
+		D2DC439528EC9235006DDCD1 /* NNJsonToModelTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DC439428EC9235006DDCD1 /* NNJsonToModelTemplateUITests.swift */; };
+		D2DC439728EC9235006DDCD1 /* NNJsonToModelTemplateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DC439628EC9235006DDCD1 /* NNJsonToModelTemplateUITestsLaunchTests.swift */; };
+		D2DC43A628EC9257006DDCD1 /* CheckType.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DC43A528EC9256006DDCD1 /* CheckType.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D2DC43C228EC9B6C006DDCD1 /* PBXContainerItemProxy */ = {
+		D2DC438728EC9235006DDCD1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D2DC43A828EC9B6C006DDCD1 /* Project object */;
+			containerPortal = D2DC436D28EC9234006DDCD1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2DC43AF28EC9B6C006DDCD1;
+			remoteGlobalIDString = D2DC437428EC9234006DDCD1;
 			remoteInfo = NNJsonToModelTemplate;
 		};
-		D2DC43CC28EC9B6C006DDCD1 /* PBXContainerItemProxy */ = {
+		D2DC439128EC9235006DDCD1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D2DC43A828EC9B6C006DDCD1 /* Project object */;
+			containerPortal = D2DC436D28EC9234006DDCD1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2DC43AF28EC9B6C006DDCD1;
+			remoteGlobalIDString = D2DC437428EC9234006DDCD1;
 			remoteInfo = NNJsonToModelTemplate;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D2DC43B028EC9B6C006DDCD1 /* NNJsonToModelTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNJsonToModelTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2DC43B328EC9B6C006DDCD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2DC43B528EC9B6C006DDCD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D2DC43B728EC9B6C006DDCD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2DC43BA28EC9B6C006DDCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D2DC43BC28EC9B6C006DDCD1 /* NNJsonToModelTemplate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NNJsonToModelTemplate.entitlements; sourceTree = "<group>"; };
-		D2DC43C128EC9B6C006DDCD1 /* NNJsonToModelTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNJsonToModelTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2DC43C528EC9B6C006DDCD1 /* NNJsonToModelTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNJsonToModelTemplateTests.swift; sourceTree = "<group>"; };
-		D2DC43CB28EC9B6C006DDCD1 /* NNJsonToModelTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNJsonToModelTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2DC43CF28EC9B6C006DDCD1 /* NNJsonToModelTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNJsonToModelTemplateUITests.swift; sourceTree = "<group>"; };
-		D2DC43D128EC9B6C006DDCD1 /* NNJsonToModelTemplateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNJsonToModelTemplateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2DC437528EC9234006DDCD1 /* NNJsonToModelTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNJsonToModelTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DC437828EC9234006DDCD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2DC437A28EC9234006DDCD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2DC437C28EC9235006DDCD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2DC437F28EC9235006DDCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2DC438128EC9235006DDCD1 /* NNJsonToModelTemplate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NNJsonToModelTemplate.entitlements; sourceTree = "<group>"; };
+		D2DC438628EC9235006DDCD1 /* NNJsonToModelTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNJsonToModelTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DC438A28EC9235006DDCD1 /* NNJsonToModelTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNJsonToModelTemplateTests.swift; sourceTree = "<group>"; };
+		D2DC439028EC9235006DDCD1 /* NNJsonToModelTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNJsonToModelTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DC439428EC9235006DDCD1 /* NNJsonToModelTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNJsonToModelTemplateUITests.swift; sourceTree = "<group>"; };
+		D2DC439628EC9235006DDCD1 /* NNJsonToModelTemplateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NNJsonToModelTemplateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2DC43A328EC9256006DDCD1 /* NNJsonToModelTemplate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NNJsonToModelTemplate-Bridging-Header.h"; sourceTree = "<group>"; };
+		D2DC43A428EC9256006DDCD1 /* CheckType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckType.h; sourceTree = "<group>"; };
+		D2DC43A528EC9256006DDCD1 /* CheckType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckType.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2DC43AD28EC9B6C006DDCD1 /* Frameworks */ = {
+		D2DC437228EC9234006DDCD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2DC43BE28EC9B6C006DDCD1 /* Frameworks */ = {
+		D2DC438328EC9235006DDCD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2DC43C828EC9B6C006DDCD1 /* Frameworks */ = {
+		D2DC438D28EC9235006DDCD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,51 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D2DC43A728EC9B6C006DDCD1 = {
+		D2DC436C28EC9234006DDCD1 = {
 			isa = PBXGroup;
 			children = (
-				D2DC43B228EC9B6C006DDCD1 /* NNJsonToModelTemplate */,
-				D2DC43C428EC9B6C006DDCD1 /* NNJsonToModelTemplateTests */,
-				D2DC43CE28EC9B6C006DDCD1 /* NNJsonToModelTemplateUITests */,
-				D2DC43B128EC9B6C006DDCD1 /* Products */,
+				D2DC437728EC9234006DDCD1 /* NNJsonToModelTemplate */,
+				D2DC438928EC9235006DDCD1 /* NNJsonToModelTemplateTests */,
+				D2DC439328EC9235006DDCD1 /* NNJsonToModelTemplateUITests */,
+				D2DC437628EC9234006DDCD1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D2DC43B128EC9B6C006DDCD1 /* Products */ = {
+		D2DC437628EC9234006DDCD1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2DC43B028EC9B6C006DDCD1 /* NNJsonToModelTemplate.app */,
-				D2DC43C128EC9B6C006DDCD1 /* NNJsonToModelTemplateTests.xctest */,
-				D2DC43CB28EC9B6C006DDCD1 /* NNJsonToModelTemplateUITests.xctest */,
+				D2DC437528EC9234006DDCD1 /* NNJsonToModelTemplate.app */,
+				D2DC438628EC9235006DDCD1 /* NNJsonToModelTemplateTests.xctest */,
+				D2DC439028EC9235006DDCD1 /* NNJsonToModelTemplateUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2DC43B228EC9B6C006DDCD1 /* NNJsonToModelTemplate */ = {
+		D2DC437728EC9234006DDCD1 /* NNJsonToModelTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				D2DC43B328EC9B6C006DDCD1 /* AppDelegate.swift */,
-				D2DC43B528EC9B6C006DDCD1 /* ViewController.swift */,
-				D2DC43B728EC9B6C006DDCD1 /* Assets.xcassets */,
-				D2DC43B928EC9B6C006DDCD1 /* Main.storyboard */,
-				D2DC43BC28EC9B6C006DDCD1 /* NNJsonToModelTemplate.entitlements */,
+				D2DC437828EC9234006DDCD1 /* AppDelegate.swift */,
+				D2DC437A28EC9234006DDCD1 /* ViewController.swift */,
+				D2DC43A428EC9256006DDCD1 /* CheckType.h */,
+				D2DC43A528EC9256006DDCD1 /* CheckType.m */,
+				D2DC437C28EC9235006DDCD1 /* Assets.xcassets */,
+				D2DC437E28EC9235006DDCD1 /* Main.storyboard */,
+				D2DC438128EC9235006DDCD1 /* NNJsonToModelTemplate.entitlements */,
+				D2DC43A328EC9256006DDCD1 /* NNJsonToModelTemplate-Bridging-Header.h */,
 			);
 			path = NNJsonToModelTemplate;
 			sourceTree = "<group>";
 		};
-		D2DC43C428EC9B6C006DDCD1 /* NNJsonToModelTemplateTests */ = {
+		D2DC438928EC9235006DDCD1 /* NNJsonToModelTemplateTests */ = {
 			isa = PBXGroup;
 			children = (
-				D2DC43C528EC9B6C006DDCD1 /* NNJsonToModelTemplateTests.swift */,
+				D2DC438A28EC9235006DDCD1 /* NNJsonToModelTemplateTests.swift */,
 			);
 			path = NNJsonToModelTemplateTests;
 			sourceTree = "<group>";
 		};
-		D2DC43CE28EC9B6C006DDCD1 /* NNJsonToModelTemplateUITests */ = {
+		D2DC439328EC9235006DDCD1 /* NNJsonToModelTemplateUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D2DC43CF28EC9B6C006DDCD1 /* NNJsonToModelTemplateUITests.swift */,
-				D2DC43D128EC9B6C006DDCD1 /* NNJsonToModelTemplateUITestsLaunchTests.swift */,
+				D2DC439428EC9235006DDCD1 /* NNJsonToModelTemplateUITests.swift */,
+				D2DC439628EC9235006DDCD1 /* NNJsonToModelTemplateUITestsLaunchTests.swift */,
 			);
 			path = NNJsonToModelTemplateUITests;
 			sourceTree = "<group>";
@@ -124,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2DC43AF28EC9B6C006DDCD1 /* NNJsonToModelTemplate */ = {
+		D2DC437428EC9234006DDCD1 /* NNJsonToModelTemplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2DC43D528EC9B6C006DDCD1 /* Build configuration list for PBXNativeTarget "NNJsonToModelTemplate" */;
+			buildConfigurationList = D2DC439A28EC9235006DDCD1 /* Build configuration list for PBXNativeTarget "NNJsonToModelTemplate" */;
 			buildPhases = (
-				D2DC43AC28EC9B6C006DDCD1 /* Sources */,
-				D2DC43AD28EC9B6C006DDCD1 /* Frameworks */,
-				D2DC43AE28EC9B6C006DDCD1 /* Resources */,
+				D2DC437128EC9234006DDCD1 /* Sources */,
+				D2DC437228EC9234006DDCD1 /* Frameworks */,
+				D2DC437328EC9234006DDCD1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -138,69 +145,70 @@
 			);
 			name = NNJsonToModelTemplate;
 			productName = NNJsonToModelTemplate;
-			productReference = D2DC43B028EC9B6C006DDCD1 /* NNJsonToModelTemplate.app */;
+			productReference = D2DC437528EC9234006DDCD1 /* NNJsonToModelTemplate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D2DC43C028EC9B6C006DDCD1 /* NNJsonToModelTemplateTests */ = {
+		D2DC438528EC9235006DDCD1 /* NNJsonToModelTemplateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2DC43D828EC9B6C006DDCD1 /* Build configuration list for PBXNativeTarget "NNJsonToModelTemplateTests" */;
+			buildConfigurationList = D2DC439D28EC9235006DDCD1 /* Build configuration list for PBXNativeTarget "NNJsonToModelTemplateTests" */;
 			buildPhases = (
-				D2DC43BD28EC9B6C006DDCD1 /* Sources */,
-				D2DC43BE28EC9B6C006DDCD1 /* Frameworks */,
-				D2DC43BF28EC9B6C006DDCD1 /* Resources */,
+				D2DC438228EC9235006DDCD1 /* Sources */,
+				D2DC438328EC9235006DDCD1 /* Frameworks */,
+				D2DC438428EC9235006DDCD1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D2DC43C328EC9B6C006DDCD1 /* PBXTargetDependency */,
+				D2DC438828EC9235006DDCD1 /* PBXTargetDependency */,
 			);
 			name = NNJsonToModelTemplateTests;
 			productName = NNJsonToModelTemplateTests;
-			productReference = D2DC43C128EC9B6C006DDCD1 /* NNJsonToModelTemplateTests.xctest */;
+			productReference = D2DC438628EC9235006DDCD1 /* NNJsonToModelTemplateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D2DC43CA28EC9B6C006DDCD1 /* NNJsonToModelTemplateUITests */ = {
+		D2DC438F28EC9235006DDCD1 /* NNJsonToModelTemplateUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2DC43DB28EC9B6C006DDCD1 /* Build configuration list for PBXNativeTarget "NNJsonToModelTemplateUITests" */;
+			buildConfigurationList = D2DC43A028EC9235006DDCD1 /* Build configuration list for PBXNativeTarget "NNJsonToModelTemplateUITests" */;
 			buildPhases = (
-				D2DC43C728EC9B6C006DDCD1 /* Sources */,
-				D2DC43C828EC9B6C006DDCD1 /* Frameworks */,
-				D2DC43C928EC9B6C006DDCD1 /* Resources */,
+				D2DC438C28EC9235006DDCD1 /* Sources */,
+				D2DC438D28EC9235006DDCD1 /* Frameworks */,
+				D2DC438E28EC9235006DDCD1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D2DC43CD28EC9B6C006DDCD1 /* PBXTargetDependency */,
+				D2DC439228EC9235006DDCD1 /* PBXTargetDependency */,
 			);
 			name = NNJsonToModelTemplateUITests;
 			productName = NNJsonToModelTemplateUITests;
-			productReference = D2DC43CB28EC9B6C006DDCD1 /* NNJsonToModelTemplateUITests.xctest */;
+			productReference = D2DC439028EC9235006DDCD1 /* NNJsonToModelTemplateUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D2DC43A828EC9B6C006DDCD1 /* Project object */ = {
+		D2DC436D28EC9234006DDCD1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					D2DC43AF28EC9B6C006DDCD1 = {
+					D2DC437428EC9234006DDCD1 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
-					D2DC43C028EC9B6C006DDCD1 = {
+					D2DC438528EC9235006DDCD1 = {
 						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = D2DC43AF28EC9B6C006DDCD1;
+						TestTargetID = D2DC437428EC9234006DDCD1;
 					};
-					D2DC43CA28EC9B6C006DDCD1 = {
+					D2DC438F28EC9235006DDCD1 = {
 						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = D2DC43AF28EC9B6C006DDCD1;
+						TestTargetID = D2DC437428EC9234006DDCD1;
 					};
 				};
 			};
-			buildConfigurationList = D2DC43AB28EC9B6C006DDCD1 /* Build configuration list for PBXProject "NNJsonToModelTemplate" */;
+			buildConfigurationList = D2DC437028EC9234006DDCD1 /* Build configuration list for PBXProject "NNJsonToModelTemplate" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -208,36 +216,36 @@
 				en,
 				Base,
 			);
-			mainGroup = D2DC43A728EC9B6C006DDCD1;
-			productRefGroup = D2DC43B128EC9B6C006DDCD1 /* Products */;
+			mainGroup = D2DC436C28EC9234006DDCD1;
+			productRefGroup = D2DC437628EC9234006DDCD1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2DC43AF28EC9B6C006DDCD1 /* NNJsonToModelTemplate */,
-				D2DC43C028EC9B6C006DDCD1 /* NNJsonToModelTemplateTests */,
-				D2DC43CA28EC9B6C006DDCD1 /* NNJsonToModelTemplateUITests */,
+				D2DC437428EC9234006DDCD1 /* NNJsonToModelTemplate */,
+				D2DC438528EC9235006DDCD1 /* NNJsonToModelTemplateTests */,
+				D2DC438F28EC9235006DDCD1 /* NNJsonToModelTemplateUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D2DC43AE28EC9B6C006DDCD1 /* Resources */ = {
+		D2DC437328EC9234006DDCD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2DC43B828EC9B6C006DDCD1 /* Assets.xcassets in Resources */,
-				D2DC43BB28EC9B6C006DDCD1 /* Main.storyboard in Resources */,
+				D2DC437D28EC9235006DDCD1 /* Assets.xcassets in Resources */,
+				D2DC438028EC9235006DDCD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2DC43BF28EC9B6C006DDCD1 /* Resources */ = {
+		D2DC438428EC9235006DDCD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2DC43C928EC9B6C006DDCD1 /* Resources */ = {
+		D2DC438E28EC9235006DDCD1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -247,52 +255,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D2DC43AC28EC9B6C006DDCD1 /* Sources */ = {
+		D2DC437128EC9234006DDCD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2DC43B628EC9B6C006DDCD1 /* ViewController.swift in Sources */,
-				D2DC43B428EC9B6C006DDCD1 /* AppDelegate.swift in Sources */,
+				D2DC437B28EC9234006DDCD1 /* ViewController.swift in Sources */,
+				D2DC437928EC9234006DDCD1 /* AppDelegate.swift in Sources */,
+				D2DC43A628EC9257006DDCD1 /* CheckType.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2DC43BD28EC9B6C006DDCD1 /* Sources */ = {
+		D2DC438228EC9235006DDCD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2DC43C628EC9B6C006DDCD1 /* NNJsonToModelTemplateTests.swift in Sources */,
+				D2DC438B28EC9235006DDCD1 /* NNJsonToModelTemplateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2DC43C728EC9B6C006DDCD1 /* Sources */ = {
+		D2DC438C28EC9235006DDCD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2DC43D028EC9B6C006DDCD1 /* NNJsonToModelTemplateUITests.swift in Sources */,
-				D2DC43D228EC9B6C006DDCD1 /* NNJsonToModelTemplateUITestsLaunchTests.swift in Sources */,
+				D2DC439528EC9235006DDCD1 /* NNJsonToModelTemplateUITests.swift in Sources */,
+				D2DC439728EC9235006DDCD1 /* NNJsonToModelTemplateUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D2DC43C328EC9B6C006DDCD1 /* PBXTargetDependency */ = {
+		D2DC438828EC9235006DDCD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2DC43AF28EC9B6C006DDCD1 /* NNJsonToModelTemplate */;
-			targetProxy = D2DC43C228EC9B6C006DDCD1 /* PBXContainerItemProxy */;
+			target = D2DC437428EC9234006DDCD1 /* NNJsonToModelTemplate */;
+			targetProxy = D2DC438728EC9235006DDCD1 /* PBXContainerItemProxy */;
 		};
-		D2DC43CD28EC9B6C006DDCD1 /* PBXTargetDependency */ = {
+		D2DC439228EC9235006DDCD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2DC43AF28EC9B6C006DDCD1 /* NNJsonToModelTemplate */;
-			targetProxy = D2DC43CC28EC9B6C006DDCD1 /* PBXContainerItemProxy */;
+			target = D2DC437428EC9234006DDCD1 /* NNJsonToModelTemplate */;
+			targetProxy = D2DC439128EC9235006DDCD1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D2DC43B928EC9B6C006DDCD1 /* Main.storyboard */ = {
+		D2DC437E28EC9235006DDCD1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D2DC43BA28EC9B6C006DDCD1 /* Base */,
+				D2DC437F28EC9235006DDCD1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -300,7 +309,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D2DC43D328EC9B6C006DDCD1 /* Debug */ = {
+		D2DC439828EC9235006DDCD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -360,7 +369,7 @@
 			};
 			name = Debug;
 		};
-		D2DC43D428EC9B6C006DDCD1 /* Release */ = {
+		D2DC439928EC9235006DDCD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -413,11 +422,12 @@
 			};
 			name = Release;
 		};
-		D2DC43D628EC9B6C006DDCD1 /* Debug */ = {
+		D2DC439B28EC9235006DDCD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = NNJsonToModelTemplate/NNJsonToModelTemplate.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -436,15 +446,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nn.jsontoclass.NNJsonToModelTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NNJsonToModelTemplate/NNJsonToModelTemplate-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		D2DC43D728EC9B6C006DDCD1 /* Release */ = {
+		D2DC439C28EC9235006DDCD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = NNJsonToModelTemplate/NNJsonToModelTemplate.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -463,11 +476,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nn.jsontoclass.NNJsonToModelTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NNJsonToModelTemplate/NNJsonToModelTemplate-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		D2DC43D928EC9B6C006DDCD1 /* Debug */ = {
+		D2DC439E28EC9235006DDCD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -486,7 +500,7 @@
 			};
 			name = Debug;
 		};
-		D2DC43DA28EC9B6C006DDCD1 /* Release */ = {
+		D2DC439F28EC9235006DDCD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -505,7 +519,7 @@
 			};
 			name = Release;
 		};
-		D2DC43DC28EC9B6C006DDCD1 /* Debug */ = {
+		D2DC43A128EC9235006DDCD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -522,7 +536,7 @@
 			};
 			name = Debug;
 		};
-		D2DC43DD28EC9B6C006DDCD1 /* Release */ = {
+		D2DC43A228EC9235006DDCD1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -542,43 +556,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2DC43AB28EC9B6C006DDCD1 /* Build configuration list for PBXProject "NNJsonToModelTemplate" */ = {
+		D2DC437028EC9234006DDCD1 /* Build configuration list for PBXProject "NNJsonToModelTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2DC43D328EC9B6C006DDCD1 /* Debug */,
-				D2DC43D428EC9B6C006DDCD1 /* Release */,
+				D2DC439828EC9235006DDCD1 /* Debug */,
+				D2DC439928EC9235006DDCD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2DC43D528EC9B6C006DDCD1 /* Build configuration list for PBXNativeTarget "NNJsonToModelTemplate" */ = {
+		D2DC439A28EC9235006DDCD1 /* Build configuration list for PBXNativeTarget "NNJsonToModelTemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2DC43D628EC9B6C006DDCD1 /* Debug */,
-				D2DC43D728EC9B6C006DDCD1 /* Release */,
+				D2DC439B28EC9235006DDCD1 /* Debug */,
+				D2DC439C28EC9235006DDCD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2DC43D828EC9B6C006DDCD1 /* Build configuration list for PBXNativeTarget "NNJsonToModelTemplateTests" */ = {
+		D2DC439D28EC9235006DDCD1 /* Build configuration list for PBXNativeTarget "NNJsonToModelTemplateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2DC43D928EC9B6C006DDCD1 /* Debug */,
-				D2DC43DA28EC9B6C006DDCD1 /* Release */,
+				D2DC439E28EC9235006DDCD1 /* Debug */,
+				D2DC439F28EC9235006DDCD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2DC43DB28EC9B6C006DDCD1 /* Build configuration list for PBXNativeTarget "NNJsonToModelTemplateUITests" */ = {
+		D2DC43A028EC9235006DDCD1 /* Build configuration list for PBXNativeTarget "NNJsonToModelTemplateUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2DC43DC28EC9B6C006DDCD1 /* Debug */,
-				D2DC43DD28EC9B6C006DDCD1 /* Release */,
+				D2DC43A128EC9235006DDCD1 /* Debug */,
+				D2DC43A228EC9235006DDCD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D2DC43A828EC9B6C006DDCD1 /* Project object */;
+	rootObject = D2DC436D28EC9234006DDCD1 /* Project object */;
 }

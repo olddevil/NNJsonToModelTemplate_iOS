@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  NNJsonToModelTemplate
 //
-//  Created by olddevil on 2022/10/5.
+//  Created by olddevil on 2022/9/30.
 //
 
 import Cocoa
