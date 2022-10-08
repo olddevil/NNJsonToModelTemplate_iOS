@@ -10,8 +10,8 @@
 - 支持多层嵌套
 
 # 页面
-<img src="https://github.com/olddevil/NNJsonToModelTemplate_iOS/blob/main/imgs/sub_model_inside.jpg" width="50%">
-<img src="https://github.com/olddevil/NNJsonToModelTemplate_iOS/blob/main/imgs/sub_model_outside.jpg" width="50%">
+<img src="https://github.com/olddevil/NNJsonToModelTemplate_iOS/blob/main/imgs/sub_model_inside.jpg" width="80%">
+<img src="https://github.com/olddevil/NNJsonToModelTemplate_iOS/blob/main/imgs/sub_model_outside.jpg" width="80%">
 
 # 暂不支持
 - 暂未去重
