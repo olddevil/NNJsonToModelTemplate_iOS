@@ -9,6 +9,10 @@
 - 子model可以选择生成内部model或者外部model
 - 支持多层嵌套
 
+# 页面
+<img src="https://github.com/olddevil/NNJsonToModelTemplate_iOS/blob/main/imgs/sub_model_inside.jpg" width="50%">
+<img src="https://github.com/olddevil/NNJsonToModelTemplate_iOS/blob/main/imgs/sub_model_outside.jpg" width="50%">
+
 # 暂不支持
 - 暂未去重
 
